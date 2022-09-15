@@ -61,12 +61,12 @@ setup(
         'pandas>=0.23.0',
         'scipy>=1.0.0',
         'tensorflow_hub>=0.2',
-        'tensorflow_probability==0.7',
+        'tensorflow_probability',
         'seaborn',
     ],
     extras_require={
-        'tf': ['tensorflow==1.14'],
-        'tf_gpu': ['tensorflow-gpu==1.14'],
+        'tf': ['tensorflow>=1.14'],
+        'tf_gpu': ['tensorflow-gpu>=1.14'],
     },
     classifiers=[
         'Development Status :: 4 - Beta',
